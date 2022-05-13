@@ -1,0 +1,52 @@
+header {
+    background: rgb(109, 0, 0);
+    background: linear-gradient(90deg, rgba(109, 0, 0, 1) 35%, rgba(11, 58, 7, 1) 65%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        .header__img {
+            width: 70px;
+            height: auto;
+            padding-left: 20px;
+        }
+    }
+
+    .header__title {
+        font-family: "magic";
+        display: flex;
+        font-size: 80px;
+        padding-right: 30px;
+        color: #fff;
+        text-decoration: none;
+
+        @font-face {
+            font-family: "magic";
+            src: url(../fonts/HARRYP__.TTF);
+        }
+    }
+
+    .header__nav {
+        width: 50%;
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: white;
+    
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "desafio-7-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss/style.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

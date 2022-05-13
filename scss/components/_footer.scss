@@ -1,0 +1,20 @@
+footer {
+    background: rgb(25, 28, 104);
+    background: linear-gradient(90deg, rgba(25, 28, 104, 1) 35%, rgba(198, 165, 19, 1) 65%);
+    display: flex;
+    justify-content: center;
+
+    .social__media {
+
+        a {
+            img {
+                width: 50px;
+                height: auto;
+                padding-left: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+
+    }
+}

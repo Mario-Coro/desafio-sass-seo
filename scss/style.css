@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #6d0000;
+  background: linear-gradient(90deg, #6d0000 35%, #0b3a07 65%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div .header__img {
+  width: 70px;
+  height: auto;
+  padding-left: 20px;
+}
+
+header .header__title {
+  font-family: "magic";
+  display: flex;
+  font-size: 80px;
+  padding-right: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@font-face {
+  header .header__title {
+    font-family: "magic";
+    src: url(../fonts/HARRYP__.TTF);
+  }
+}
+
+header .header__nav {
+  width: 50%;
+}
+
+header .header__nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+header .header__nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .header__nav ul li a:hover {
+  color: black;
+}
+
+footer {
+  background: #191c68;
+  background: linear-gradient(90deg, #191c68 35%, #c6a513 65%);
+  display: flex;
+  justify-content: center;
+}
+
+footer .social__media a img {
+  width: 50px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main {
+  background-color: #dfdfde;
+}
+
+main .info__img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+main .info__container div .info__container-p {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+  padding: 5px 5px;
+}
+/*# sourceMappingURL=style.css.map */

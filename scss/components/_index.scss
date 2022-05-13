@@ -1,0 +1,22 @@
+main {
+    background-color: #dfdfde;
+
+        .info__img {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+    .info__container {
+        div {
+            .info__container-p {
+                font-size: 18px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                line-height: 1.4;
+                padding: 5px 5px;
+            }
+        }
+    }
+}
