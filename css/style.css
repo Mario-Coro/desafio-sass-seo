@@ -7,7 +7,7 @@ header {
   background: rgb(109, 0, 0);
   background: linear-gradient(90deg, rgb(109, 0, 0) 35%, rgb(11, 58, 7) 65%);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 header div .header__img {
@@ -36,7 +36,7 @@ header .header__nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 22px;
 }
 header .header__nav ul li a {
   text-decoration: none;
@@ -49,8 +49,6 @@ header .header__nav ul li a:hover {
 footer {
   background: rgb(25, 28, 104);
   background: linear-gradient(90deg, rgb(25, 28, 104) 35%, rgb(198, 165, 19) 65%);
-  display: flex;
-  justify-content: center;
 }
 footer .social__media a img {
   width: 50px;
@@ -67,14 +65,18 @@ main .info__img {
   width: 80%;
   height: auto;
   margin: auto;
-  display: flex;
-  justify-content: center;
 }
 main .info__container div .info__container-p {
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
   padding: 5px 5px;
+}
+
+footer, main .info__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

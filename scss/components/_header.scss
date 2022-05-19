@@ -1,14 +1,16 @@
+@import '../base/variables';
+@import '../base/maps';
+@import '../base/mixin';
+
 header {
     background: rgb(109, 0, 0);
     background: linear-gradient(90deg, rgba(109, 0, 0, 1) 35%, rgba(11, 58, 7, 1) 65%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex (flex,space-around,center);
 
     div {
         .header__img {
             width: 70px;
-            height: auto;
+            height: $height-img;
             padding-left: 20px;
         }
     }
@@ -31,10 +33,10 @@ header {
         width: 50%;
 
         ul {
-            list-style: none;
-            display: flex;
-            justify-content: space-around;
-            font-size: 20px;
+            list-style: map-get($lista, liststyle );
+            display: map-get($lista, display );
+            justify-content: map-get($lista, justify-content );
+            font-size: map-get($lista, font-size );
 
             li {
 

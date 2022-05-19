@@ -1,12 +1,12 @@
+@import '../base/variables';
 main {
     background-color: #dfdfde;
 
         .info__img {
             width: 80%;
-            height: auto;
+            height: $height-img;
             margin: auto;
-            display: flex;
-            justify-content: center;
+            @extend %flex
         }
 
     .info__container {
